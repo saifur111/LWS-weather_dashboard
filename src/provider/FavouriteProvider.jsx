@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
+
 import { useContext } from "react";
 import { FavouriteContext } from "../context";
-import { useLocalStorage } from "../hooks";
+import useLocalStorage from "../hooks/useLocalStorage";
+
 
 const FavouriteProvider = ({ children }) => {
     const [favourites, setFavourites] = useLocalStorage("favourites", []);
