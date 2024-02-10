@@ -58,7 +58,7 @@ function Page() {
                     className="grid place-items-center h-screen bg-no-repeat bg-cover"
                 >
                     <Header />
-                    <main>
+                    <main className="">
                         <section>
                             <WeatherBoard />
                         </section>

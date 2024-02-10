@@ -20,6 +20,11 @@ const data = [
         longitude: 103.8519072,
     },
     {
+        location: "Cumilla",
+        latitude: 23.450001,
+        longitude: 91.199997,
+    },
+    {
         location: "New York",
         latitude: 40.7127281,
         longitude: -74.0060152,
